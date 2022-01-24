@@ -1,96 +1,33 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-
-:root {
-  --primaryColor: #f1f1f1;
-  --black: #222;
-  --black2: #555;
-  --black3: #252525;
-  --black4: #000;
-  --black5: #212529;
-  --orange: #eb0028;
-  --white: #fff;
-  --grey: #959595;
-  --grey2: #666;
-  --grey3: #ccc;
-  --secondaryColor: #2b1f4d;
-  --yellow: #ffcc00;
-  --green: #59b210;
-  --blue: rgb(56, 10, 223);
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
+  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  border: none;
   text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear;
 }
 
-html {
-  height: 100%;
-  scroll-behavior: smooth;
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background: blue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 1.5rem 10%;
 }
-
-body {
-  color: rgb(218, 218, 218);;
-  background-color: #222;
-}
-
-h1 {
-  font-size: 4.5rem;
-}
-
-h2 {
-  font-size:2.5rem;
-}
-
-h3 {
-  font-size: 2rem;
-}
-
-h4 {
-  font-size: 1.8rem;
-}
-
-h5 {
-  font-size: 1.5rem;
-}
-
-h6 {
-  font-size: 1rem;
-}
-
-p {
-  font-size: 1rem;
-  letter-spacing: 0.05vw;
-}
-
-/************ MEDIA QUERIES **************/
-
-@media screen and (max-width: 1599px) {
-  html {
-    font-size: 40%;
-  }
-}
-@media screen and (max-width: 767px) {
-  .heading {
-    font-size: 4rem;
-  }
-  .text {
-    font-size: 14px;
-  }
-  .play {
-    width: 8rem;
-    height: 8rem;
-    font-size: 2rem;
-  }
-  .btn {
-    height: auto;
-    padding: 4rem;
-    font-size: 2.2rem;
-  }
-}
-
-
-/************** FOOTER **************/
+/*# sourceMappingURL=styles.css.map */
