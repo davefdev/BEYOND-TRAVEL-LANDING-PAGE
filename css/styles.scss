@@ -23,6 +23,13 @@ $black-bg:rgba(17,17,17,.7);
 $border:.3rem solid $blue;
 
 
+html {
+  font-size: 66%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 8rem;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -34,5 +41,5 @@ $border:.3rem solid $blue;
   align-items: center;
   justify-content: space-around;
   padding: 1.5rem 9%;
-  margin: ;
+  margin: 0%;
 }
