@@ -13,6 +13,31 @@
   transition: all 0.4s linear;
 }
 
+html {
+  font-size: 66%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 8rem;
+}
+
+html::-webkit-scrollbar {
+  width: 0.95rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: #111;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #30dbc4;
+  border-radius: 5rem;
+}
+
+body {
+  background: #111;
+  overflow-x: hidden;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -28,6 +53,29 @@
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  padding: 1.5rem 10%;
+  padding: 1.5rem 9%;
+  margin: 0%;
+}
+
+.header .nav-menu a {
+  font-size: 1.8rem;
+  color: #858585;
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+.header:hover {
+  color: #30dbc4;
+}
+
+.nav-logo {
+  font-size: 2.6rem;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.nav-logo i {
+  color: #30dbc4;
+  padding-right: .5rem;
 }
 /*# sourceMappingURL=styles.css.map */

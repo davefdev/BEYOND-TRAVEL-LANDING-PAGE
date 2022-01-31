@@ -14,20 +14,37 @@
 
 //COLOURS
 
-$blue:#30dbc4;
-$black:#111;
-$white:#fff;
-$light-color:rgb(133, 133, 133);
-$bg-color:#222;
-$black-bg:rgba(17,17,17,.7);
-$border:.3rem solid $blue;
-
+$blue: #30dbc4;
+$black: #111;
+$white: #fff;
+$light-color: rgb(133, 133, 133);
+$bg-color: #222;
+$black-bg: rgba(17, 17, 17, 0.7);
+$border: 0.3rem solid $blue;
 
 html {
   font-size: 66%;
   overflow-x: hidden;
   scroll-behavior: smooth;
   scroll-padding-top: 8rem;
+
+  &::-webkit-scrollbar {
+    width: 0.95rem;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $black;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $blue;
+    border-radius: 5rem;
+  }
+}
+
+body {
+  background: $black;
+  overflow-x: hidden;
 }
 
 .header {
@@ -42,4 +59,26 @@ html {
   justify-content: space-around;
   padding: 1.5rem 9%;
   margin: 0%;
+
+  .nav-menu a{
+    font-size: 1.8rem;
+    color: $light-color;
+    display: inline-block;
+    margin: 0 1rem;
+  }
+  &:hover{
+    color: $blue;
+  }
+}
+
+.nav-logo {
+  font-size: 2.6rem;
+  color: $white;
+  font-weight: bolder;
+
+  i {
+    color: $blue;
+    padding-right: .5rem;
+  }
+
 }
