@@ -47,26 +47,41 @@ body {
   overflow-x: hidden;
 }
 
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 1.1rem 2.9rem;
+  font-size: 1.8rem;
+  color: $blue;
+  border: $border;
+  border-radius: 4.8rem;
+  cursor: pointer;
+  background: none;
+}
+
 .header {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 999;
-  background: blue;
+  background: $bg-color;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 1.5rem 9%;
   margin: 0%;
 
-  .nav-menu a{
+  .nav-list {
+    list-style-type: none;
+    display: flex;
+  }
+  .nav-menu a {
     font-size: 1.8rem;
     color: $light-color;
-    display: inline-block;
     margin: 0 1rem;
   }
-  &:hover{
+  &:hover {
     color: $blue;
   }
 }
@@ -75,10 +90,10 @@ body {
   font-size: 2.6rem;
   color: $white;
   font-weight: bolder;
+  display: flex;
 
   i {
     color: $blue;
-    padding-right: .5rem;
+    padding-right: 1rem;
   }
-
 }
