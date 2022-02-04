@@ -50,6 +50,11 @@ body {
   background: none;
 }
 
+.btn:hover {
+  background: #30dbc4;
+  color: #111;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -87,6 +92,10 @@ body {
   color: #30dbc4;
 }
 
+.header .btn {
+  margin-top: 0;
+}
+
 .nav-logo {
   font-size: 2.6rem;
   color: #fff;
@@ -98,6 +107,6 @@ body {
 
 .nav-logo i {
   color: #30dbc4;
-  padding-right: 1rem;
+  padding-right: .6rem;
 }
 /*# sourceMappingURL=styles.css.map */
