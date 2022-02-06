@@ -107,6 +107,53 @@ body {
 
 .nav-logo i {
   color: #30dbc4;
-  padding-right: .6rem;
+  padding-right: 0.6rem;
+}
+
+#hamburger {
+  font-size: 2.6rem;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 60%;
+  }
+  .header {
+    padding: 1.5rem 2.1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: inline-block;
+  }
+  .header .nav-menu {
+    position: absolute;
+    top: 99%;
+    left: 0;
+    right: 0;
+    background: #222;
+  }
+  .header .nav-menu.active {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  .header .nav-menu a {
+    margin: 2.1rem;
+    font-size: 2.1rem;
+    display: block;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 60%;
+  }
+  .header {
+    padding: 1.5rem 2.1rem;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
