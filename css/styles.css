@@ -137,7 +137,7 @@ body {
     right: 0;
     background: #222;
   }
-  .header .nav-menu.active {
+  .header .nav-menu.active-link {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
             clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
