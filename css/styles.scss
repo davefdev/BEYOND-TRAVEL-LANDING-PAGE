@@ -42,6 +42,14 @@ html {
   }
 }
 
+
+section {
+  padding: 3rem 10%;
+
+}
+
+
+
 body {
   background: $black;
   overflow-x: hidden;
@@ -114,6 +122,45 @@ body {
   display: none;
 }
 
+.home-section {
+  margin: 0 auto;
+  margin-top: 10rem;
+  width: 90%;
+  border-radius: 1rem;
+  background: url(/images/home-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  min-height: 80vh;
+  align-items: center;
+  justify-content: center;
+
+  .content{
+    text-align: center;
+    span {
+      font-weight: bolder;
+      color: transparent;
+      -webkit-text-stroke: .2rem &white;
+      font-size: 4vw;
+      display: block;
+    }
+    h3{
+      font-size: 6vw;
+      color: $white;
+
+    }
+    p{
+      max-width: 61rem;
+      margin: 1.1rem;
+    }
+  }
+}
+
+
+
+
+
+
 //MEDIA QUERIES
 @media (max-width: 991px) {
   html {
@@ -123,6 +170,15 @@ body {
   .header {
     padding: 1.5rem 2.1rem;
   }
+
+  section {
+    padding: 3rem 2rem;
+  
+  }
+  
+
+
+
 }
 @media (max-width: 768px) {
   .hamburger {
