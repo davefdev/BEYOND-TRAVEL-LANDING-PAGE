@@ -160,7 +160,10 @@ body {
 
 .home-section .content p {
   max-width: 61rem;
-  margin: 1.1rem;
+  margin: 1.1rem auto;
+  font-size: 1.5rem;
+  color: #858585;
+  line-height: 2;
 }
 
 @media (max-width: 991px) {
