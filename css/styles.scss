@@ -42,13 +42,9 @@ html {
   }
 }
 
-
 section {
   padding: 3rem 10%;
-
 }
-
-
 
 body {
   background: $black;
@@ -136,43 +132,70 @@ body {
   justify-content: center;
   padding-bottom: 5.25rem;
 
-  .content{
+  .content {
     text-align: center;
     span {
       font-weight: bolder;
       color: transparent;
-      -webkit-text-stroke: .2rem &white;
+      -webkit-text-stroke: 0.2rem &white;
       font-size: 4vw;
       display: block;
     }
-    h3{
+    h3 {
       font-size: 6vw;
       color: $white;
-
     }
-    p{
+    p {
       max-width: 61rem;
       margin: 1.1rem auto;
       font-size: 1.5rem;
       color: $light-color;
       line-height: 2;
-      
     }
   }
 }
 
 .booking-section {
-  width: 82.5%;
+  width: 77.5%;
   margin: 0 auto;
-  margin-top: -4.9rem;
+  margin-top: -4.75rem;
   background: $bg-color;
   border-radius: 1.25rem;
-///here
+  box-shadow: 0 0.75rem 1rem rgba(17, 17, 17, 0.4);
+  padding: 3rem 2rem;
+
+  form {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 1.6rem;
+
+    .inputContainer {
+      flex: 1 1 25rem;
+
+      span {
+        font-size: 1.5rem;
+        color: $light-color;
+      }
+
+      input {
+        width: 100%;
+        padding: 1.3rem 1.5rem;
+        border-radius: 5rem;
+        border: $border;
+        font-size: 1.7rem;
+        color: $light-color;
+        text-transform: none;
+        background: none;
+        margin-top: 1rem;
+      }
+    }
+
+    .btn {
+      flex: 1 1 15rem;
+    }
+  }
 }
-
-
-
-
 
 //MEDIA QUERIES
 @media (max-width: 991px) {
@@ -186,12 +209,7 @@ body {
 
   section {
     padding: 3rem 2rem;
-  
   }
-  
-
-
-
 }
 @media (max-width: 768px) {
   .hamburger {
@@ -216,18 +234,17 @@ body {
       }
     }
   }
-  .home-section (
+  .home-section {
     margin-top: 10.5rem;
-    .content{
+    .content {
       span {
         font-size: 8.25vw;
-
       }
-      h3{
+      h3 {
         font-size: 8.9vw;
       }
     }
-  )
+  }
 }
 
 @media (max-width: 450px) {
