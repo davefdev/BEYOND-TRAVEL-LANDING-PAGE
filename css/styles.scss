@@ -205,19 +205,18 @@ body {
   margin-top: 5.25rem;
 
   .video-container {
-    flex:1;
+    flex: 1;
 
     video {
       border-radius: 1rem;
       width: 100%;
     }
 
-    .controls{
+    .controls {
       text-align: center;
-          padding: 2rem 0;
-    
-      span{
+      padding: 2rem 0;
 
+      span {
         display: inline-block;
         height: 2rem;
         width: 2.25rem;
@@ -225,24 +224,22 @@ body {
         background: $white;
         cursor: pointer;
 
-        &:hover{
+        &:hover {
           background: $blue;
         }
       }
-        }
-
-
+    }
   }
 
   .content-container {
-    flex:1;
+    flex: 1;
     margin-bottom: 4.9rem;
 
-    span{
+    span {
       color: $blue;
       font-size: 2rem;
     }
-    h3{
+    h3 {
       color: $blue;
       font-size: 4.25rem;
       margin-top: 0.75rem;
@@ -255,8 +252,9 @@ body {
       line-height: 2;
     }
   }
-
 }
+
+//DONE
 
 //MEDIA QUERIES
 @media (max-width: 991px) {

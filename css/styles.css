@@ -219,6 +219,73 @@ body {
           flex: 1 1 15rem;
 }
 
+.about-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 2.1rem;
+  margin-top: 5.25rem;
+}
+
+.about-section .video-container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.about-section .video-container video {
+  border-radius: 1rem;
+  width: 100%;
+}
+
+.about-section .video-container .controls {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.about-section .video-container .controls span {
+  display: inline-block;
+  height: 2rem;
+  width: 2.25rem;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+}
+
+.about-section .video-container .controls span:hover {
+  background: #30dbc4;
+}
+
+.about-section .content-container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-bottom: 4.9rem;
+}
+
+.about-section .content-container span {
+  color: #30dbc4;
+  font-size: 2rem;
+}
+
+.about-section .content-container h3 {
+  color: #30dbc4;
+  font-size: 4.25rem;
+  margin-top: 0.75rem;
+}
+
+.about-section .content-container p {
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  color: #858585;
+  line-height: 2;
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 60%;
