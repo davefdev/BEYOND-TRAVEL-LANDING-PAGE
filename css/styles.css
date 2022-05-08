@@ -255,6 +255,7 @@ body {
   border-radius: 50%;
   background: #fff;
   cursor: pointer;
+  margin: .7rem;
 }
 
 .about-section .video-container .controls span:hover {
