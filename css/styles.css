@@ -79,20 +79,20 @@ body {
   margin: 0%;
 }
 
-.header .nav-list {
+.header .nav {
   list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.header .nav-menu a {
+.header .nav a {
   font-size: 1.8rem;
   color: #858585;
   margin: 0 1rem;
 }
 
-.header .nav-menu a:hover {
+.header .nav a:hover {
   color: #30dbc4 !important;
 }
 
