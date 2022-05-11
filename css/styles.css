@@ -92,8 +92,8 @@ body {
   margin: 0 1rem;
 }
 
-.header:hover {
-  color: #30dbc4;
+.header .nav-menu a:hover {
+  color: #30dbc4 !important;
 }
 
 .header .btn {
@@ -255,7 +255,7 @@ body {
   border-radius: 50%;
   background: #fff;
   cursor: pointer;
-  margin: .7rem;
+  margin: 0.7rem;
 }
 
 .about-section .video-container .controls span:hover {

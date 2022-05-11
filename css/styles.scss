@@ -89,9 +89,10 @@ body {
     font-size: 1.8rem;
     color: $light-color;
     margin: 0 1rem;
-  }
-  &:hover {
-    color: $blue;
+
+    &:hover {
+      color: $blue !important;
+    }
   }
 
   .btn {
@@ -223,7 +224,7 @@ body {
         border-radius: 50%;
         background: $white;
         cursor: pointer;
-        margin: .7rem;
+        margin: 0.7rem;
 
         &:hover {
           background: $blue;
