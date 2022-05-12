@@ -79,7 +79,7 @@ body {
   margin: 0%;
 }
 
-.header .nav {
+.header .nav ul {
   list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -88,7 +88,7 @@ body {
 
 .header .nav a {
   font-size: 1.8rem;
-  color: #858585;
+  color: #9d9c9c;
   margin: 0 1rem;
 }
 
@@ -163,7 +163,7 @@ body {
   max-width: 61rem;
   margin: 1.1rem auto;
   font-size: 1.5rem;
-  color: #858585;
+  color: #9d9c9c;
   line-height: 2;
 }
 
@@ -198,7 +198,7 @@ body {
 
 .booking-section form .inputContainer span {
   font-size: 1.5rem;
-  color: #858585;
+  color: #9d9c9c;
 }
 
 .booking-section form .inputContainer input {
@@ -207,7 +207,7 @@ body {
   border-radius: 5rem;
   border: 0.3rem solid #30dbc4;
   font-size: 1.7rem;
-  color: #858585;
+  color: #9d9c9c;
   text-transform: none;
   background: none;
   margin-top: 1rem;
@@ -283,7 +283,7 @@ body {
 .about-section .content-container p {
   padding: 1rem 0;
   font-size: 1.5rem;
-  color: #858585;
+  color: #9d9c9c;
   line-height: 2;
 }
 

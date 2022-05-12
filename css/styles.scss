@@ -17,7 +17,7 @@
 $blue: #30dbc4;
 $black: #111;
 $white: #fff;
-$light-color: rgb(133, 133, 133);
+$light-color: rgb(157, 156, 156);
 $bg-color: #222;
 $black-bg: rgba(17, 17, 17, 0.7);
 $border: 0.3rem solid $blue;
@@ -81,10 +81,11 @@ body {
   padding: 1.5rem 9%;
   margin: 0%;
 
-  .nav {
+  .nav ul {
     list-style-type: none;
     display: flex;
   }
+  
   .nav a {
     font-size: 1.8rem;
     color: $light-color;
