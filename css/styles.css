@@ -267,15 +267,17 @@ body {
       -ms-flex: 1;
           flex: 1;
   margin-bottom: 4.9rem;
+  padding: 2rem;
 }
 
 .about-section .content-container span {
   color: #30dbc4;
   font-size: 2rem;
+  padding-bottom: 1rem;
 }
 
 .about-section .content-container h3 {
-  color: #30dbc4;
+  color: #fff;
   font-size: 4.25rem;
   margin-top: 0.75rem;
 }
@@ -336,6 +338,9 @@ body {
   }
   .header {
     padding: 1.5rem 2.1rem;
+  }
+  .about .content h3 {
+    font-size: 3.5rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */
