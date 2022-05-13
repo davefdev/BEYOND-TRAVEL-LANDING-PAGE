@@ -42,7 +42,6 @@ html {
   }
 }
 
-
 body {
   background: $black;
   overflow-x: hidden;
@@ -52,23 +51,21 @@ section {
   padding: 3rem 10%;
 }
 
-.heading{
-
+.heading {
   text-align: center;
   margin-bottom: 2rem;
 
-    span{
-      color: $blue;
-font-size: 2.1rem;
+  span {
+    color: $blue;
+    font-size: 2.1rem;
+  }
 
-    }
-
-    h1{
-      
-    }
-
+  h1 {
+    font-size: 4rem;
+    color: &white;
+    margin-top: 0.5rem;
+  }
 }
-
 
 .btn {
   margin-top: 1rem;
@@ -104,7 +101,7 @@ font-size: 2.1rem;
     list-style-type: none;
     display: flex;
   }
-  
+
   .nav a {
     font-size: 1.8rem;
     color: $light-color;
@@ -261,7 +258,7 @@ font-size: 2.1rem;
     span {
       color: $blue;
       font-size: 2rem;
-      padding-bottom: 1rem ;
+      padding-bottom: 1rem;
     }
     h3 {
       color: $white;
@@ -339,8 +336,7 @@ font-size: 2.1rem;
     padding: 1.5rem 2.1rem;
   }
 
-  .about .content h3{
-
+  .about .content h3 {
     font-size: 3.5rem;
   }
 }

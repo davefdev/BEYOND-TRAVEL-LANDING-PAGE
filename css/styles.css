@@ -52,6 +52,12 @@ section {
   font-size: 2.1rem;
 }
 
+.heading h1 {
+  font-size: 4rem;
+  color: .heading h1 white;
+  margin-top: 0.5rem;
+}
+
 .btn {
   margin-top: 1rem;
   display: inline-block;
