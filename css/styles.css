@@ -54,7 +54,7 @@ section {
 
 .heading h1 {
   font-size: 4rem;
-  color: .heading h1 white;
+  color: #fff;
   margin-top: 0.5rem;
 }
 
@@ -303,6 +303,14 @@ section {
   font-size: 1.5rem;
   color: #9d9c9c;
   line-height: 2;
+}
+
+.destination-section .box-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(27rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+  grid-gap: 1.6rem;
 }
 
 @media (max-width: 991px) {
