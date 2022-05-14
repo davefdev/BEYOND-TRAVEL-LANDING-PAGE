@@ -28,7 +28,6 @@ $border: 0.3rem solid $blue;
   grid-gap: 1.6rem;
 }
 
-
 html {
   font-size: 66%;
   overflow-x: hidden;
@@ -283,8 +282,24 @@ section {
 }
 
 .destination-section .box-container {
-  @include grid(27rem)
+  @include grid(27rem) 
+  
+  .box {
+    border-radius: 1rem;
+    overflow: hidden;
+    background: $black-bg;
 
+    .image {
+      height: 20rem;
+      overflow: hidden;
+
+      width: 100%;
+
+      img {
+        height: 100%;
+      }
+    }
+  }
 }
 
 //MEDIA QUERIES
