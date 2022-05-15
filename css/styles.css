@@ -364,7 +364,7 @@ section {
 }
 
 .destination-section .box-container .box .content a i {
-  padding-right: .5rem;
+  padding-right: 0.5rem;
 }
 
 @media (max-width: 991px) {

@@ -301,11 +301,11 @@ section {
         object-fit: cover;
       }
     }
-    .content{
+    .content {
       padding: 2rem;
       text-align: center;
 
-      h3{
+      h3 {
         font-size: 2rem;
         color: $white;
       }
@@ -315,18 +315,17 @@ section {
         color: $light-color;
         line-height: 2;
       }
-      a{
+      a {
         font-size: 1.6rem;
         color: $blue;
 
-        &:hover i{
+        &:hover i {
           padding-left: 1rem;
         }
-          i{
-            padding-right: .5rem;
-          }
+        i {
+          padding-right: 0.5rem;
+        }
       }
-
     }
   }
 }
