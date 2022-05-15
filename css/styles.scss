@@ -283,15 +283,12 @@ section {
 }
 
 .destination-section .box-container {
-  @include grid(27rem) 
-  
-  .box {
+  @include grid(27rem) .box {
     border-radius: 1rem;
     overflow: hidden;
-    background: $black-bg;
-    
+    background: $bg-color;
 
-    &:hover img{
+    &:hover img {
       transform: scale(1.15);
     }
     .image {
@@ -304,6 +301,33 @@ section {
         width: 100%;
         object-fit: cover;
       }
+    }
+    .content{
+      padding: 2rem;
+      text-align: center;
+
+      h3{
+        font-size: 2rem;
+        color: $white;
+      }
+      p {
+        padding: 1rem 0;
+        font-size: 1.5rem;
+        color: $light-color;
+        line-height: 2;
+      }
+      a{
+        font-size: 1.6rem;
+        color: $blue;
+
+        &:hover i{
+          padding-right: 1rem;
+        }
+          i{
+            padding-right: .5rem;
+          }
+      }
+
     }
   }
 }

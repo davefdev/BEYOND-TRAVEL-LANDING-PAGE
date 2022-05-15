@@ -318,7 +318,7 @@ section {
 .destination-section .box-container .box {
   border-radius: 1rem;
   overflow: hidden;
-  background: rgba(17, 17, 17, 0.7);
+  background: #222;
 }
 
 .destination-section .box-container .box:hover img {
@@ -337,6 +337,36 @@ section {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.destination-section .box-container .box .content {
+  padding: 2rem;
+  text-align: center;
+}
+
+.destination-section .box-container .box .content h3 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.destination-section .box-container .box .content p {
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  color: #9d9c9c;
+  line-height: 2;
+}
+
+.destination-section .box-container .box .content a {
+  font-size: 1.6rem;
+  color: #30dbc4;
+}
+
+.destination-section .box-container .box .content a:hover i {
+  padding-right: 1rem;
+}
+
+.destination-section .box-container .box .content a i {
+  padding-right: .5rem;
 }
 
 @media (max-width: 991px) {
