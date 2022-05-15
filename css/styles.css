@@ -310,13 +310,20 @@ section {
   display: grid;
   -ms-grid-columns: (minmax(27rem, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
-  grid-gap: 1.6rem;
+  grid-gap: 2rem;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .destination-section .box-container .box {
   border-radius: 1rem;
   overflow: hidden;
   background: rgba(17, 17, 17, 0.7);
+}
+
+.destination-section .box-container .box:hover img {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
 }
 
 .destination-section .box-container .box .image {
@@ -327,6 +334,9 @@ section {
 
 .destination-section .box-container .box .image img {
   height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media (max-width: 991px) {
