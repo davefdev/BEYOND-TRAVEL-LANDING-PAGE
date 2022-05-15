@@ -26,7 +26,6 @@ $border: 0.3rem solid $blue;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
   grid-gap: 2rem;
-  object-fit: cover;
 }
 
 html {
@@ -321,7 +320,7 @@ section {
         color: $blue;
 
         &:hover i{
-          padding-right: 1rem;
+          padding-left: 1rem;
         }
           i{
             padding-right: .5rem;

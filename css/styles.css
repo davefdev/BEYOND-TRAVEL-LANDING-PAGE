@@ -311,8 +311,6 @@ section {
   -ms-grid-columns: (minmax(27rem, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
   grid-gap: 2rem;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 .destination-section .box-container .box {
@@ -362,7 +360,7 @@ section {
 }
 
 .destination-section .box-container .box .content a:hover i {
-  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 .destination-section .box-container .box .content a i {
