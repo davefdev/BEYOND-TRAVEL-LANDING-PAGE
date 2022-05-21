@@ -340,14 +340,25 @@ section {
     border-radius: 1rem;
     padding: 3rem 2rem;
     text-align: center;
+    border: 0.25rem solid $black;
+
+    &:hover {
+      border: $border;
+    }
     i {
       font-size: 4rem;
       color: $blue;
-      margin-bottom: 1rem;
+      margin-bottom: 2rem;
     }
-    h3{
+    h3 {
       font-size: 2rem;
       color: $white;
+    }
+    p {
+      padding: 1rem 0;
+      font-size: 1.4rem;
+      color: $light-color;
+      line-height: 2;
     }
   }
 }
