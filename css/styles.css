@@ -367,6 +367,32 @@ section {
   padding-right: 0.5rem;
 }
 
+.services-section .box-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(32rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+  grid-gap: 2rem;
+}
+
+.services-section .box-container .box {
+  background: #222;
+  border-radius: 1rem;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.services-section .box-container .box i {
+  font-size: 4rem;
+  color: #30dbc4;
+  margin-bottom: 1rem;
+}
+
+.services-section .box-container .box h3 {
+  font-size: 2rem;
+  color: #fff;
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 60%;

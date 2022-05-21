@@ -331,6 +331,26 @@ section {
 }
 
 //HEREhgv
+.services-section .box-container {
+  @include grid(32rem);
+
+  .box {
+    background: $bg-color;
+
+    border-radius: 1rem;
+    padding: 3rem 2rem;
+    text-align: center;
+    i {
+      font-size: 4rem;
+      color: $blue;
+      margin-bottom: 1rem;
+    }
+    h3{
+      font-size: 2rem;
+      color: $white;
+    }
+  }
+}
 
 //MEDIA QUERIES
 @media (max-width: 991px) {
