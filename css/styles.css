@@ -104,7 +104,7 @@ section {
 
 .header .nav a {
   font-size: 1.8rem;
-  color: #9d9c9c;
+  color: #a7a7a7;
   margin: 0 1rem;
 }
 
@@ -179,7 +179,7 @@ section {
   max-width: 61rem;
   margin: 1.1rem auto;
   font-size: 1.5rem;
-  color: #9d9c9c;
+  color: #a7a7a7;
   line-height: 2;
 }
 
@@ -214,7 +214,7 @@ section {
 
 .booking-section form .inputContainer span {
   font-size: 1.5rem;
-  color: #9d9c9c;
+  color: #a7a7a7;
 }
 
 .booking-section form .inputContainer input {
@@ -223,7 +223,7 @@ section {
   border-radius: 5rem;
   border: 0.3rem solid #30dbc4;
   font-size: 1.7rem;
-  color: #9d9c9c;
+  color: #a7a7a7;
   text-transform: none;
   background: none;
   margin-top: 1rem;
@@ -301,7 +301,7 @@ section {
 .about-section .content-container p {
   padding: 1rem 0;
   font-size: 1.5rem;
-  color: #9d9c9c;
+  color: #a7a7a7;
   line-height: 2;
 }
 
@@ -355,7 +355,7 @@ section {
 .destination-section .box-container .box .content p {
   padding: 1rem 0;
   font-size: 1.5rem;
-  color: #9d9c9c;
+  color: #a7a7a7;
   line-height: 2;
 }
 
@@ -406,8 +406,38 @@ section {
 .services-section .box-container .box p {
   padding: 1rem 0;
   font-size: 1.4rem;
-  color: #9d9c9c;
+  color: #a7a7a7;
   line-height: 2;
+}
+
+.gallery-section .box-container {
+  -webkit-columns: 3 25rem;
+          columns: 3 25rem;
+  -webkit-column-gap: 1.5rem;
+          column-gap: 1.5rem;
+}
+
+.gallery-section .box-container .box {
+  margin-bottom: 1rem;
+  -webkit-column-break-inside: avoid;
+          break-inside: avoid;
+}
+
+.gallery-section .box-container .box img {
+  width: 100%;
+  border-radius: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.gallery-section .box-container .box span {
+  font-size: 1.5rem;
+  color: #a7a7a7;
+}
+
+.gallery-section .box-container .box h3 {
+  margin-top: 0.5rem;
+  font-size: 2rem;
+  color: #fff;
 }
 
 @media (max-width: 991px) {

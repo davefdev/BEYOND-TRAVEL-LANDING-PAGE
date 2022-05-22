@@ -17,7 +17,7 @@
 $blue: #30dbc4;
 $black: #111;
 $white: #fff;
-$light-color: rgb(157, 156, 156);
+$light-color: rgb(167, 167, 167);
 $bg-color: #222;
 $black-bg: rgba(17, 17, 17, 0.7);
 $border: 0.3rem solid $blue;
@@ -26,7 +26,6 @@ $border: 0.3rem solid $blue;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
   grid-gap: 2rem;
-  
 }
 
 html {
@@ -288,9 +287,8 @@ section {
     overflow: hidden;
     background: $bg-color;
 
-    &:hover{
-      box-shadow: 0px 0px 20px rgba(	48, 219, 196, 0.75);
-
+    &:hover {
+      box-shadow: 0px 0px 20px rgba(48, 219, 196, 0.75);
     }
     &:hover img {
       transform: scale(1.15);
@@ -362,6 +360,32 @@ section {
       font-size: 1.4rem;
       color: $light-color;
       line-height: 2;
+    }
+  }
+}
+
+.gallery-section .box-container {
+  columns: 3 25rem;
+  column-gap: 1.5rem;
+
+  .box {
+    margin-bottom: 1rem;
+    break-inside: avoid;
+
+    img {
+      width: 100%;
+      border-radius: 1.25rem;
+      margin-bottom: 1rem;
+    }
+
+    span {
+      font-size: 1.5rem;
+      color: $light-color;
+    }
+    h3 {
+      margin-top: 0.5rem;
+      font-size: 2rem;
+      color: $white;
     }
   }
 }
