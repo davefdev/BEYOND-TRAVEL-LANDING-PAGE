@@ -389,8 +389,16 @@ section {
     }
   }
 }
-//here
 
+
+.blog-section .box-container {
+@include grid(32rem);
+
+  .box{
+    border-radius: 1rem;
+  }
+
+}
 
 //MEDIA QUERIES
 @media (max-width: 991px) {
