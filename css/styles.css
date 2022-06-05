@@ -440,6 +440,31 @@ section {
   color: #fff;
 }
 
+.blog-section .box-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(32rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+  grid-gap: 2rem;
+}
+
+.blog-section .box-container .box {
+  border-radius: 1rem;
+}
+
+.blog-section .box-container .image {
+  height: 25rem;
+  overflow: hidden;
+  width: 100%;
+}
+
+.blog-section .box-container .image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 60%;
