@@ -450,6 +450,13 @@ section {
 
 .blog-section .box-container .box {
   border-radius: 1rem;
+  background: #222;
+  overflow: hidden;
+}
+
+.blog-section .box-container .box:hover .image img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .blog-section .box-container .image {
@@ -463,6 +470,53 @@ section {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.blog-section .box-container .image .content {
+  padding: 2rem;
+}
+
+.blog-section .box-container .image .content .links {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.blog-section .box-container .image .content .links:hover {
+  color: #30dbc4;
+}
+
+.blog-section .box-container .image .content p {
+  padding: 1rem 0;
+  font-size: 1.4rem;
+  color: #a7a7a7;
+  line-height: 2;
+}
+
+.blog-section .box-container .image .content .icon {
+  padding-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.blog-section .box-container .image .content .icon a {
+  font-size: 1.5rem;
+  color: #a7a7a7;
+}
+
+.blog-section .box-container .image .content .icon a:hover {
+  color: #30dbc4;
+}
+
+.blog-section .box-container .image .content .icon a i {
+  padding-right: 0.5rem;
+  color: #30dbc4;
 }
 
 @media (max-width: 991px) {

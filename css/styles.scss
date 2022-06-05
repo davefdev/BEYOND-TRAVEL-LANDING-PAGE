@@ -390,34 +390,81 @@ section {
   }
 }
 
-
 .blog-section .box-container {
-@include grid(32rem);
+  @include grid(32rem);
 
-  .box{
+  .box {
     border-radius: 1rem;
+    background: $bg-color;
+    overflow: hidden;
+
+    &:hover {
+      .image img {
+        transform: scale(1.1);
+      }
+    }
   }
 
-  .image{
+  .image {
     height: 25rem;
     overflow: hidden;
     width: 100%;
 
-
-    img{
+    img {
       height: 100%;
       width: 100%;
       object-fit: cover;
     }
+
+    .content{
+      padding: 2rem;
+
+
+      .links{
+        font-size: 2rem;
+        color: $white;
+      
+      &:hover{
+        color: $blue;
+      }
+      
+
+
+      
+      }
+
+      p {
+        padding: 1rem 0;
+        font-size: 1.4rem;
+        color: $light-color;
+        line-height: 2;
+      }
+
+      .icon{
+        padding-top: 1rem;
+        display: flex ;
+        align-items: center;
+        justify-content: space-between;
+
+          a{
+            font-size: 1.5rem;
+            color: $light-color;
+
+            &:hover {
+              color: $blue;
+            } 
+              i{
+                padding-right: 0.5rem;
+                color: $blue;
+              }
+          }
+
+      }
+    }
   }
-
-
 }
 
-
 //HERE
-
-
 
 //MEDIA QUERIES
 @media (max-width: 991px) {
