@@ -416,21 +416,16 @@ section {
       object-fit: cover;
     }
 
-    .content{
+    .content {
       padding: 2rem;
 
-
-      .links{
+      .links {
         font-size: 2rem;
         color: $white;
-      
-      &:hover{
-        color: $blue;
-      }
-      
 
-
-      
+        &:hover {
+          color: $blue;
+        }
       }
 
       p {
@@ -440,25 +435,24 @@ section {
         line-height: 2;
       }
 
-      .icon{
+      .icon {
         padding-top: 1rem;
-        display: flex ;
+        display: flex;
         align-items: center;
         justify-content: space-between;
 
-          a{
-            font-size: 1.5rem;
-            color: $light-color;
+        a {
+          font-size: 1.5rem;
+          color: $light-color;
 
-            &:hover {
-              color: $blue;
-            } 
-              i{
-                padding-right: 0.5rem;
-                color: $blue;
-              }
+          &:hover {
+            color: $blue;
           }
-
+          i {
+            padding-right: 0.5rem;
+            color: $blue;
+          }
+        }
       }
     }
   }
