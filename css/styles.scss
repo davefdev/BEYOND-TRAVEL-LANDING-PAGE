@@ -282,7 +282,8 @@ section {
 }
 
 .destination-section .box-container {
-  @include grid(27rem) .box {
+  @include grid(27rem);
+  .box {
     border-radius: 1rem;
     overflow: hidden;
     background: $bg-color;
