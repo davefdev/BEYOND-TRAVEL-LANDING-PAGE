@@ -459,8 +459,7 @@ section {
   }
 }
 
-
-.footer {
+.footer-section {
   .box-container {
     @include grid(25rem);
 
@@ -557,6 +556,8 @@ section {
     color: $blue;
   }
 }
+
+//HERE
 
 
 //MEDIA QUERIES
