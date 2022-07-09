@@ -1,13 +1,13 @@
 /*===== SIDEBAR NAV =====*/
 
-let navbar = document.querySelector(".header .navbar");
+const navbar = document.querySelector(".header .nav");
 
 document.querySelector("#hamburger").onclick = () => {
-  navbar.classList.toggle("active");
+  navbar.classList.toggle("active-link");
 };
 
 window.onscroll = () => {
-  navbar.classList.remove("active");
+  navbar.classList.remove("active-link");
 };
 
 document
