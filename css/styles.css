@@ -519,7 +519,7 @@ section {
   color: #30dbc4;
 }
 
-.footer .box-container {
+.footer-section .box-container {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
@@ -527,37 +527,37 @@ section {
   grid-gap: 2rem;
 }
 
-.footer .box-container .box {
+.footer-section .box-container .box {
   padding: 1rem 0;
 }
 
-.footer .box-container .box .logo {
+.footer-section .box-container .box .logo {
   padding-bottom: 1rem;
 }
 
-.footer .box-container .box h3 {
+.footer-section .box-container .box h3 {
   font-size: 2.2rem;
   color: #fff;
   padding: 1rem 0;
 }
 
-.footer .box-container .box p {
+.footer-section .box-container .box p {
   font-size: 1.4rem;
   color: #a7a7a7;
   padding: 1rem 0;
   line-height: 2;
 }
 
-.footer .box-container .box p i {
+.footer-section .box-container .box p i {
   padding-right: 0.5rem;
   color: #30dbc4;
 }
 
-.footer .box-container .box .share {
+.footer-section .box-container .box .share {
   padding-top: 1rem;
 }
 
-.footer .box-container .box .share a {
+.footer-section .box-container .box .share a {
   height: 4.5rem;
   width: 4.5rem;
   line-height: 4rem;
@@ -570,32 +570,32 @@ section {
   text-align: center;
 }
 
-.footer .box-container .box .share a:hover {
+.footer-section .box-container .box .share a:hover {
   background: #30dbc4;
   color: #111;
 }
 
-.footer .box-container .box .links {
+.footer-section .box-container .box .links {
   font-size: 1.4rem;
   color: #a7a7a7;
   padding: 1rem 0;
   display: block;
 }
 
-.footer .box-container .box .links:hover {
+.footer-section .box-container .box .links:hover {
   color: #30dbc4;
 }
 
-.footer .box-container .box .links:hover i {
+.footer-section .box-container .box .links:hover i {
   padding-right: 2rem;
 }
 
-.footer .box-container .box .links i {
+.footer-section .box-container .box .links i {
   padding-right: 0.5rem;
   color: #30dbc4;
 }
 
-.footer .box-container .box form .email {
+.footer-section .box-container .box form .email {
   width: 100%;
   border-radius: 5rem;
   border: 0.3rem solid #30dbc4;
